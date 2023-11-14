@@ -1,0 +1,5 @@
+[[redirects]]
+from = "/styles/*"
+to = "/dist/output.css"
+status = 200
+#  force = true
