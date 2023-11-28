@@ -1,0 +1,41 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body {
+    background-color: black;
+}
+
+/* Pattern styles */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 0.8rem;
+  padding: 2rem;
+}
+
+.left-half {
+  background: #ff9e2c;
+  grid-column: 1;
+}
+
+.right-half {
+  background: #b6701e;
+  grid-column: 2;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    height: 20rem;
+    width: 20rem;
+    background-size: contain;
+    aspect-ratio: 3 / 2;
+}
+
+.color-primary {
+  color: rgb(102, 197, 252);
+}
+
+.color-secondary {
+    color: white;
+}
